@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    background-color: black;
+    margin :0 ;
+    color:white;
+}
+body{
+    width:100%;
+}
+.container{
+    width:50%;
+    margin: 5vh auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+h1 {
+    color:deepskyblue;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+h2 {
+    color:deepskyblue; 
+    font-size: 2rem;
+    
+}
+.btns {
+    padding:3rem 3.5rem;
+    border: 2px solid burlywood;
+    border-radius:50% ;
+    
+}
+i{
+    position: absolute;
+    margin-top: 2.7rem;
+    margin-left: -4.5rem;
+    font-size: 2em;
+    color: burlywood;
+    cursor: pointer;
+}
+
+#decision{
+    color: chartreuse;
+    font-size: 1.25rem;
+}
+#value{
+    color: chartreuse;
+    font-size: 1.25rem;
+}
+h3 {
+    color: chartreuse;
+    font-size: 1.5rem;
+}
+.score-box{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 0;
+    font-size: 1.25rem;
+}
+#draw , #win , #loose{
+    color: chartreuse;
+    font-size: 1.25rem;
+}
+.score{
+    color: chartreuse;
+}
+.reset{
+    background-color :deepskyblue;
+    color: black;
+    padding:1rem 2rem;
+    cursor: pointer;
+    font-size: 1rem;
+    
+    
+}
